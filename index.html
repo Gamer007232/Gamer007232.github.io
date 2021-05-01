@@ -7,6 +7,7 @@
     <title>LarsB</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
@@ -15,7 +16,9 @@
         <ul class="nav nav-tabs" role="tablist">
             <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-toggle="tab" href="#tab-1">Infos</a></li>
             <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-toggle="tab" href="#tab-2">Kontakt</a></li>
-            <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-toggle="tab" href="#tab-3"></a></li>
+            <div class="btn-group"><button class="btn btn-primary" type="button">Über Mich&nbsp;</button><button class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false" type="button"></button>
+                <div class="dropdown-menu"><a class="dropdown-item" href="overme.html">Über Mich</a><a class="dropdown-item" href="https://github.com/Gamer007232">GitHub</a><a class="dropdown-item" href="MyProjects.html">MyProjects<br></a><a class="dropdown-item" href="#">Coming Soon<br></a><a class="dropdown-item" href="#">Coming Soon<br></a></div>
+            </div>
         </ul>
         <div class="tab-content">
             <div class="tab-pane active" role="tabpanel" id="tab-1">
@@ -24,7 +27,7 @@
             <div class="tab-pane" role="tabpanel" id="tab-2">
                 <section class="contact-clean">
                     <form data-bss-recipient="f1d63a03945640bfc1c9d643623a1fdf">
-                        <h2 class="text-center">Kontaktiren Sie mich&nbsp;</h2>
+                        <h2 class="text-center">Kontaktieren Sie mich&nbsp;</h2>
                         <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name" required=""></div>
                         <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email" required=""></div>
                         <div class="form-group"><textarea class="form-control" name="message" placeholder="Message" rows="14" required="" minlength="10"></textarea></div>
